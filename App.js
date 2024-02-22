@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
-import Logo from "../teste/assets/instagram-logo.png";
-import Pessoa from "../teste/assets/pessoa.webp";
-import Pessoa2 from "../teste/assets/pessoa2.webp";
+import Logo from "../teste/assets/src/instagram-logo.png";
+import Pessoa from "../teste/assets/src/pessoa.webp";
+import Pessoa2 from "../teste/assets/src/pessoa2.webp";
 
 export default function App() {
   return (
