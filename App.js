@@ -1,12 +1,17 @@
-import { StyleSheet, View, Image, TouchableOpacity, ScrollView} from 'react-native';
-import Header from "./src/components/Header";
-import Stories from './src/components/Stories';
+import { StyleSheet, View} from 'react-native';
+import InfoProfile from './src/components/InfoProfile';
+import PessoaProfile from "./src/assets/pessoa.webp";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header/>
-      <Stories/>
+      <InfoProfile 
+      image={PessoaProfile}
+      publi={2}
+      followers={200}
+      following={200}
+      descricao={"Matheus Yokoo"}
+      />
     </View>
   );
 }
