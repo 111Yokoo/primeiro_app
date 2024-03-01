@@ -1,6 +1,8 @@
 import { StyleSheet, View} from 'react-native';
 import InfoProfile from './src/components/InfoProfile';
+import MyPosts from './src/components/MyPosts';
 import PessoaProfile from "./src/assets/pessoa.webp";
+import Post from "./src/assets/Post.jpg";
 
 export default function App() {
   return (
@@ -12,6 +14,7 @@ export default function App() {
       following={200}
       descricao={"Matheus Yokoo"}
       />
+      <MyPosts image={Post}/>
     </View>
   );
 }
