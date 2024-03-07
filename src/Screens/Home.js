@@ -1,6 +1,6 @@
 import { StyleSheet, View, Image, TouchableOpacity, ScrollView} from 'react-native';
-import Header from './src/components/Header';
-import Stories from './src/components/Stories';
+import Header from '../components/Header';
+import Stories from '../components/Stories';
 
 export default function App() {
   return (
@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    marginVertical: 35,
-    marginHorizontal: 16,
+    marginTop: 35,
   },
 });

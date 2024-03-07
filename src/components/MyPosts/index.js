@@ -44,12 +44,13 @@ const styles = StyleSheet.create({
         marginVertical: 5,
     },
     imagens: {
-        width: 123,
-        height: 123,
+        width: 130,
+        height: 130,
     },
     posts: {
         flexDirection: "row",
         flexWrap: "wrap",
+        marginHorizontal: 5,
         gap: 5,
     },
 
