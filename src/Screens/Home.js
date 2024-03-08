@@ -5,7 +5,7 @@ import Post from '../components/Post';
 import PessoaProfile from "../assets/pessoa.webp";
 import postImage from "../assets/Post.jpg";
 
-export default function App() {
+export default function Home() {
   return (
     <ScrollView style={styles.container}>
       <Header/>
